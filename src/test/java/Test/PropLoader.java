@@ -10,7 +10,7 @@ public class PropLoader {
 
         Properties properties = new Properties();
 
-        try (FileInputStream input = new FileInputStream("D:\\Intellij Projects\\WebAutomation\\src\\test\\java\\Test\\General.properties")) {
+        try (FileInputStream input = new FileInputStream("D:\\WebAutomation\\src\\test\\java\\Test\\General.properties")) {
             properties.load(input);
 
         } catch (IOException e) {
