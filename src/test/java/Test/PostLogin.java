@@ -69,23 +69,6 @@ public class PostLogin {
         driver.findElement(By.xpath("//div[contains(text(),'Authenticate')]")).click();
         System.out.println("Log-in Successful");
 
-        /*WebElement closeButton = null;
-        try {
-             closeButton = driver.findElement(By.xpath("//div[@class= 'close-icon ng-star-inserted']"));
-
-            if(closeButton != null && closeButton.isDisplayed()){
-
-                closeButton.click();
-                System.out.println("close button is clicked");
-
-            } else {
-                System.out.println("close button is not clicked");
-
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }*/
-
         try {
 
             WebElement closeButton = driver.findElement(By.xpath("//div[@class= 'close-icon ng-star-inserted']"));
