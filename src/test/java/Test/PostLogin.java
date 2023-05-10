@@ -23,7 +23,7 @@ public class PostLogin {
             properties = PropLoader.loadProperties();
 
             /*Disabling Chrome-functions*/
-            Utils.disableChromeFunctions();
+            //Utils.disableChromeFunctions();
 
             if (properties.getProperty("browser").equalsIgnoreCase(Constants.CHROME)) {
 
